@@ -8,8 +8,10 @@ This maven project contains at least 1 implementation of most popular design pat
   - Singleton
   - Factory
   - Abstract Factory
+  - Simple Factory
   - Builder
   - Prototype
+  - Object Pool
 - Structural
   - Adapter
   - Bridge
