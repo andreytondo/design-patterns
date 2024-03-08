@@ -1,4 +1,4 @@
-package andreytondo.patterns.models.message;
+package andreytondo.models.message;
 
 import br.com.andreytondo.models.message.XMLMessage;
 import org.junit.jupiter.api.Assertions;

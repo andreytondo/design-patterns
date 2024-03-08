@@ -1,4 +1,4 @@
-package br.com.andreytondo.models.cell;
+package br.com.andreytondo.patterns.protoype;
 
 import lombok.Getter;
 import lombok.Setter;

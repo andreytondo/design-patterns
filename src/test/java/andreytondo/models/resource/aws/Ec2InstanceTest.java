@@ -1,4 +1,4 @@
-package andreytondo.patterns.models.resource.aws;
+package andreytondo.models.resource.aws;
 
 import br.com.andreytondo.models.resource.Instance;
 import br.com.andreytondo.models.resource.aws.Ec2Instance;

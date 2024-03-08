@@ -1,4 +1,4 @@
-package andreytondo.patterns.models.resource;
+package andreytondo.models.resource;
 
 import br.com.andreytondo.models.resource.Client;
 import br.com.andreytondo.models.resource.Instance;

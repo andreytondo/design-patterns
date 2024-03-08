@@ -1,6 +1,6 @@
-package andreytondo.patterns.models.cell;
+package andreytondo.patterns.prototype;
 
-import br.com.andreytondo.models.cell.Cell;
+import br.com.andreytondo.patterns.protoype.Cell;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

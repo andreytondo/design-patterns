@@ -1,4 +1,4 @@
-package andreytondo.patterns.models.resource.googlecloud;
+package andreytondo.models.resource.googlecloud;
 
 import br.com.andreytondo.models.resource.Instance;
 import br.com.andreytondo.models.resource.googlecoud.GoogleComputeEngineInstance;
