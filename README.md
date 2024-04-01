@@ -1,5 +1,3 @@
-explain the repository and the purpose of the project
-
 ## Introduction
 This maven project contains at least 1 implementation of most popular design patterns. 100% of it covered with unit tests.
 
