@@ -14,8 +14,8 @@ public class GoogleResourceFactoryTest {
     @DisplayName("Test createInstance")
     void testCreateInstance() {
         GoogleResourceFactory googleResourceFactory = new GoogleResourceFactory();
-        Instance instance = googleResourceFactory.createInstance(Instance.Capacity.medium);
-        Assertions.assertEquals(Instance.Capacity.medium, instance.getCapacity());
+        Instance instance = googleResourceFactory.createInstance(Instance.Capacity.MEDIUM);
+        Assertions.assertEquals(Instance.Capacity.MEDIUM, instance.getCapacity());
         Assertions.assertInstanceOf(GoogleComputeEngineInstance.class, instance);
     }
 

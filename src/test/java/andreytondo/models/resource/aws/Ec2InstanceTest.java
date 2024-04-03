@@ -26,7 +26,7 @@ public class Ec2InstanceTest {
     @Test
     @DisplayName("Test start method")
     public void testStart() {
-        Ec2Instance instance = new Ec2Instance(Instance.Capacity.medium);
+        Ec2Instance instance = new Ec2Instance(Instance.Capacity.MEDIUM);
         instance.start();
         assert outContent.toString().contains("Ec2Instance started");
     }
@@ -34,7 +34,7 @@ public class Ec2InstanceTest {
     @Test
     @DisplayName("Test stop method")
     public void testStop() {
-        Ec2Instance instance = new Ec2Instance(Instance.Capacity.medium);
+        Ec2Instance instance = new Ec2Instance(Instance.Capacity.MEDIUM);
         instance.stop();
         assert outContent.toString().contains("Ec2Instance stopped");
     }

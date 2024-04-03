@@ -26,7 +26,7 @@ public class GoogleComputeEngineInstanceTest {
     @Test
     @DisplayName("Test start method")
     public void testStart() {
-        GoogleComputeEngineInstance instance = new GoogleComputeEngineInstance(Instance.Capacity.medium);
+        GoogleComputeEngineInstance instance = new GoogleComputeEngineInstance(Instance.Capacity.MEDIUM);
         instance.start();
         assert outContent.toString().contains("Google Compute Engine Instance started");
     }
@@ -34,7 +34,7 @@ public class GoogleComputeEngineInstanceTest {
     @Test
     @DisplayName("Test stop method")
     public void testStop() {
-        GoogleComputeEngineInstance instance = new GoogleComputeEngineInstance(Instance.Capacity.medium);
+        GoogleComputeEngineInstance instance = new GoogleComputeEngineInstance(Instance.Capacity.MEDIUM);
         instance.stop();
         assert outContent.toString().contains("Google Compute Engine Instance stopped");
     }

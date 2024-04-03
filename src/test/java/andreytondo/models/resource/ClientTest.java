@@ -26,9 +26,9 @@ public class ClientTest {
     @DisplayName("Test create with AWS factory")
     void testCreateWithAWSFactory() {
         Client client = new Client(new AWSResourceFactory());
-        Instance instance = client.createServer(Instance.Capacity.medium, 1024);
+        Instance instance = client.createServer(Instance.Capacity.MEDIUM, 1024);
 
-        Assertions.assertEquals(Instance.Capacity.medium, instance.getCapacity());
+        Assertions.assertEquals(Instance.Capacity.MEDIUM, instance.getCapacity());
         Assertions.assertEquals(1024, instance.getStorage().kib());
     }
 
@@ -36,9 +36,9 @@ public class ClientTest {
     @DisplayName("Test create with GCR factory")
     void testCreateWithGCPFactory() {
         Client client = new Client(new GoogleResourceFactory());
-        Instance instance = client.createServer(Instance.Capacity.medium, 1024);
+        Instance instance = client.createServer(Instance.Capacity.MEDIUM, 1024);
 
-        Assertions.assertEquals(Instance.Capacity.medium, instance.getCapacity());
+        Assertions.assertEquals(Instance.Capacity.MEDIUM, instance.getCapacity());
         Assertions.assertEquals(1024, instance.getStorage().kib());
     }
 
@@ -46,7 +46,7 @@ public class ClientTest {
     @DisplayName("Test restart")
     void testRestart() {
         Client client = new Client(new AWSResourceFactory());
-        Instance instance = client.createServer(Instance.Capacity.medium, 1024);
+        Instance instance = client.createServer(Instance.Capacity.MEDIUM, 1024);
         client.restart();
         Assertions.assertTrue(outContent.toString().contains(instance + " restarted"));
     }

@@ -2,7 +2,7 @@ package br.com.andreytondo.models.resource;
 
 public interface Instance {
 
-    enum Capacity{small, medium, large}
+    enum Capacity{SMALL, MEDIUM, LARGE}
 
     void start();
 

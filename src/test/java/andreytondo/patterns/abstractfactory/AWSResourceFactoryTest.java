@@ -14,8 +14,8 @@ public class AWSResourceFactoryTest {
     @DisplayName("Test createInstance")
     void testCreateInstance() {
         AWSResourceFactory awsResourceFactory = new AWSResourceFactory();
-        Instance instance = awsResourceFactory.createInstance(Instance.Capacity.medium);
-        Assertions.assertEquals(Instance.Capacity.medium, instance.getCapacity());
+        Instance instance = awsResourceFactory.createInstance(Instance.Capacity.MEDIUM);
+        Assertions.assertEquals(Instance.Capacity.MEDIUM, instance.getCapacity());
         Assertions.assertInstanceOf(Ec2Instance.class, instance);
     }
 
@@ -27,7 +27,4 @@ public class AWSResourceFactoryTest {
         Assertions.assertEquals(kib, awsResourceFactory.createStorage(kib).kib());
         Assertions.assertInstanceOf(S3Storage.class, awsResourceFactory.createStorage(kib));
     }
-
-
-
 }

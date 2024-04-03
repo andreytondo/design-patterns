@@ -1,4 +1,4 @@
-package andreytondo.models.wokrspace;
+package andreytondo.models.workspace;
 
 import br.com.andreytondo.models.workspace.Equipment;
 import org.junit.jupiter.api.Assertions;
