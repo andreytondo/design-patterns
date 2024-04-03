@@ -4,7 +4,6 @@ import br.com.andreytondo.patterns.structural.decorator.sources.FileDataSource;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class FileDataSourceTest {
 

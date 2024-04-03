@@ -5,7 +5,9 @@ import br.com.andreytondo.patterns.structural.flyweight.CircleFactory;
 import org.junit.jupiter.api.Test;
 
 import java.awt.*;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertNotSame;
+import static org.junit.jupiter.api.Assertions.assertSame;
 
 public class CircleFactoryTest {
 
