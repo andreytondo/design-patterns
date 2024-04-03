@@ -1,6 +1,6 @@
 package br.com.andreytondo.models.workspace;
 
-import br.com.andreytondo.patterns.pool.Poolable;
+import br.com.andreytondo.patterns.creational.pool.Poolable;
 import lombok.Getter;
 import lombok.Setter;
 

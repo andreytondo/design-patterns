@@ -1,7 +1,7 @@
 package br.com.andreytondo.models.user;
 
 import br.com.andreytondo.models.address.Address;
-import br.com.andreytondo.patterns.builder.user.UserBuilder;
+import br.com.andreytondo.patterns.creational.builder.user.UserBuilder;
 import lombok.Getter;
 import lombok.Setter;
 

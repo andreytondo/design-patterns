@@ -1,6 +1,6 @@
 package br.com.andreytondo.models.address;
 
-import br.com.andreytondo.patterns.builder.address.SimpleAddressBuilder;
+import br.com.andreytondo.patterns.creational.builder.address.SimpleAddressBuilder;
 import lombok.Getter;
 import lombok.Setter;
 

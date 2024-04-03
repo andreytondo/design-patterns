@@ -2,8 +2,8 @@ package andreytondo.models.resource;
 
 import br.com.andreytondo.models.resource.Client;
 import br.com.andreytondo.models.resource.Instance;
-import br.com.andreytondo.patterns.abstractfactory.AWSResourceFactory;
-import br.com.andreytondo.patterns.abstractfactory.GoogleResourceFactory;
+import br.com.andreytondo.patterns.creational.abstractfactory.AWSResourceFactory;
+import br.com.andreytondo.patterns.creational.abstractfactory.GoogleResourceFactory;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;

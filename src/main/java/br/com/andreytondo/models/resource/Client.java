@@ -1,6 +1,6 @@
 package br.com.andreytondo.models.resource;
 
-import br.com.andreytondo.patterns.abstractfactory.ResourceFactory;
+import br.com.andreytondo.patterns.creational.abstractfactory.ResourceFactory;
 
 import java.util.Objects;
 
